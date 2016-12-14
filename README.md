@@ -1,3 +1,19 @@
+# Getting started with GPIO interrupt to flash LED on mbed OS
+
+
+### Import NuMaker-mbed-GPIO_Interrupt from on-line IDE
+1. Please choose Nuvoton NuMaker-PFM-XXX as your target platform.
+2. Please press the left-up icon "New", then choose "NuMaker GPIO interrupt to flash led1" from the template list.
+3. Your NuMaker-mbed-GPIO_Interrupt program is existed.
+
+#### Now compile
+Please press compile icon.
+
+#### Burn Code & Execute
+1. Connect the board NuMaker-PFM-XXX with your PC by USB cable, then there will be one "mbed" disk.
+2. Copy the built binary file into "mbed" disk on you PC.
+3. Press device's reset button to execute, press the SW1 button to flash LED.
+      
 # Example for GPIO IRQ
 
 This is an example for GPIO IRQ with de-bounce enabled.
