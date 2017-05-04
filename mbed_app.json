@@ -1,12 +1,12 @@
 {
     "target_overrides": {
         "NUMAKER_PFM_NUC472": {
-            "NUC472.gpio-irq-debounce-enable": 1,
+            "NUC472.gpio-irq-debounce-enable-list": "SW1, SW2",
             "NUC472.gpio-irq-debounce-clock-source": "GPIO_DBCTL_DBCLKSRC_IRC10K",
             "NUC472.gpio-irq-debounce-sample-rate": "GPIO_DBCTL_DBCLKSEL_16"
         },
         "NUMAKER_PFM_M453": {
-            "M451.gpio-irq-debounce-enable": 1,
+            "M451.gpio-irq-debounce-enable-list": "SW2, SW3",
             "M451.gpio-irq-debounce-clock-source": "GPIO_DBCTL_DBCLKSRC_LIRC",
             "M451.gpio-irq-debounce-sample-rate": "GPIO_DBCTL_DBCLKSEL_16"
         }
