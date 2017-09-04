@@ -1,11 +1,15 @@
 // GPIO interrupt to set led on/off
 #include "mbed.h"
+
 #if defined(TARGET_NUMAKER_PFM_NUC472)
-InterruptIn button(SW1);    // Button SW1
-DigitalOut led(LED1);       // Flash LED1
+InterruptIn button(SW1);
+DigitalOut led(LED1);
 #elif defined(TARGET_NUMAKER_PFM_M453)
-InterruptIn button(SW2);    // Button SW2
-DigitalOut led(LED1);       // Flash LED1
+InterruptIn button(SW2);
+DigitalOut led(LED1);
+#elif defined(TARGET_NUMAKER_PFM_M487)
+InterruptIn button(SW2);
+DigitalOut led(LED1);
 #endif
 
 void flip() {
