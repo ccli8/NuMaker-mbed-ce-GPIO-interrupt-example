@@ -10,6 +10,9 @@ DigitalOut led(LED1);
 #elif defined(TARGET_NUMAKER_PFM_M487)
 InterruptIn button(SW2);
 DigitalOut led(LED1);
+#elif defined(TARGET_NUMAKER_PFM_NANO130)
+InterruptIn button(SW2);
+DigitalOut led(LED1);
 #endif
 
 void flip() {
