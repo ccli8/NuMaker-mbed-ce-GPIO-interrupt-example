@@ -16,7 +16,6 @@
             "target.gpio-irq-debounce-sample-rate": "GPIO_DBCTL_DBCLKSEL_16"
         },
         "NUMAKER_PFM_NANO130": {
-            "target.macros_add": ["OS_IDLE_THREAD_STACK_SIZE=512"],
             "target.gpio-irq-debounce-enable-list": "SW2, SW3",
             "target.gpio-irq-debounce-clock-source": "GPIO_DBCLKSRC_IRC10K",
             "target.gpio-irq-debounce-sample-rate": "GPIO_DBCLKSEL_16"
