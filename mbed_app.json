@@ -29,6 +29,11 @@
             "target.gpio-irq-debounce-enable-list": "SW2, SW3",
             "target.gpio-irq-debounce-clock-source": "GPIO_DBCTL_DBCLKSRC_LIRC",
             "target.gpio-irq-debounce-sample-rate": "GPIO_DBCTL_DBCLKSEL_16"
+        },
+        "NUMAKER_IOT_M263A": {
+            "target.gpio-irq-debounce-enable-list": "SW2, SW3",
+            "target.gpio-irq-debounce-clock-source": "GPIO_DBCTL_DBCLKSRC_LIRC",
+            "target.gpio-irq-debounce-sample-rate": "GPIO_DBCTL_DBCLKSEL_16"
         }
     }
 }

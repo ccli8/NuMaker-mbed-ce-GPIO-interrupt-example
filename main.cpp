@@ -19,6 +19,9 @@ DigitalOut led(LED1);
 #elif defined(TARGET_NUMAKER_PFM_M2351)
 InterruptIn button(SW2);
 DigitalOut led(LED1);
+#elif defined(TARGET_NUMAKER_IOT_M263A)
+InterruptIn button(PG_4); // Button1 (SW10)
+DigitalOut led(LED1);
 #endif
 
 void flip() {
