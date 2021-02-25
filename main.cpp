@@ -29,5 +29,8 @@ void flip() {
 }
 
 int main() {
+#ifdef MBED_MAJOR_VERSION
+    printf("Mbed OS version %d.%d.%d\r\n\n", MBED_MAJOR_VERSION, MBED_MINOR_VERSION, MBED_PATCH_VERSION);
+#endif
     button.rise(&flip);
 }
